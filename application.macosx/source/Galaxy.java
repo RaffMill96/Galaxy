@@ -46,6 +46,8 @@ Asteroids[] Asteroid = new Asteroids[numAsteroids];
 
 public void setup()
 {
+  PImage titlebaricon = loadImage("icon.png");
+  surface.setIcon(titlebaricon);
   surface.setTitle("naaauuwelin"); 
   frameRate(60);
   
